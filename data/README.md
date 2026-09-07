@@ -1,5 +1,5 @@
-# Data availability
+# Data Availability
 
-Raw patient-captured stoma images and clinical annotations are **not redistributed** in this public repository.
+The original dataset contains patient-captured stoma images and is not redistributed in this public repository. Raw clinical images, annotations that could expose clinical source material, and participant-level data are excluded.
 
-Only public-safe technical figures and curated excerpts are included. Clinical imagery governed by privacy, consent, institutional, or collaboration restrictions remains excluded.
+This repository contains only public-safe methodological summaries, aggregate results, and non-clinical technical reconstructions.
