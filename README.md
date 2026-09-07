@@ -15,7 +15,7 @@ The project developed a deep-learning classifier for smartphone-captured stoma i
 
 ## Baseline model comparison
 
-![Baseline performance](assets/figure-01-baseline-performance.png)
+![Baseline performance](assets/figure-01-baseline-performance.svg)
 
 The reported presentation-stage EfficientNet-B0 baseline achieved:
 
@@ -31,11 +31,11 @@ The evaluation used a stratified 5-fold setup in the project presentation.
 
 ## Explainability & failure analysis
 
-![Grad-CAM concept](assets/figure-02-gradcam-concept.png)
+![Grad-CAM concept](assets/figure-02-gradcam-concept.svg)
 
 Grad-CAM was used to inspect which image regions contributed to model predictions. This analysis motivated a specific deployment concern: **background bias** - learning environmental cues that correlate with labels instead of the object of interest.
 
-![Background-bias concept](assets/figure-03-background-bias.png)
+![Background-bias concept](assets/figure-03-background-bias.svg)
 
 In the project analysis, the same failure mode was observed in stoma classification: predictions could focus on surrounding gauze / acquisition context instead of the stoma region itself. Because public redistribution of the clinical examples is inappropriate, those pages are not included here.
 
@@ -56,7 +56,7 @@ The original project presentation reports a 5:5 contribution split between Junha
 
 ## Project outputs
 
-- [`outputs/classification-public-technical-excerpt.pdf`](outputs/classification-public-technical-excerpt.pdf) - public-safe technical excerpt covering baseline evaluation, Grad-CAM, background-bias framing, and optimization concepts.
+- [`outputs/PROJECT_OUTPUTS.md`](outputs/PROJECT_OUTPUTS.md) - public-safe source manifest, versioned result notes, and technical evidence derived from the original project presentation.
 - The full presentation is not publicly redistributed because it contains clinical images.
 
 ## Data & privacy
