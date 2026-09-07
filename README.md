@@ -56,12 +56,13 @@ The original project presentation reports a 5:5 contribution split between Junha
 
 ## Project outputs
 
-- [`outputs/PROJECT_OUTPUTS.md`](outputs/PROJECT_OUTPUTS.md) - public-safe source manifest, versioned result notes, and technical evidence derived from the original project presentation.
+- [`outputs/classification-public-technical-excerpt.pdf`](outputs/classification-public-technical-excerpt.pdf) - concise public-safe technical excerpt derived from the original project presentation.
+- [`outputs/PROJECT_OUTPUTS.md`](outputs/PROJECT_OUTPUTS.md) - source manifest, versioned result notes, and technical provenance.
 - The full presentation is not publicly redistributed because it contains clinical images.
 
 ## Data & privacy
 
-No original patient-captured stoma images are included in this repository.
+No original patient-captured stoma images or raw clinical data are included in this repository.
 
 ---
 
