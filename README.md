@@ -18,6 +18,12 @@ The project did not stop at predictive performance. It also examined **whether t
 
 The final pipeline therefore combined **ConvNeXt**, **Grad-CAM-based failure analysis**, **ROI-centered preprocessing**, and **Label Smoothing** to improve robustness.
 
+## Portfolio-aligned main figure
+
+![Grad-CAM based model inspection](https://raw.githubusercontent.com/Juna0926/Portfolio/main/assets/media/research-classification.webp)
+
+*Representative figure synchronized with the current Portfolio detail page, emphasizing Grad-CAM inspection and background-shortcut analysis.*
+
 ## Data & task
 
 - **264 patients**
@@ -45,7 +51,7 @@ The final pipeline improved AUC from **0.8919 to 0.9200**.
 
 More importantly, the study showed that a model with strong predictive performance can still depend on **clinically irrelevant shortcut features**.
 
-## Explainability & failure analysis
+## Supporting repository figures
 
 ![Grad-CAM concept](assets/figure-02-gradcam-concept.svg)
 
